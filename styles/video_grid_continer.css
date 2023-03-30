@@ -8,17 +8,17 @@
 
 
 /* dlfgjkljhss */
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     .video-grid-continer {
         grid-template-columns: 1fr 1fr;
     }
 
     body{
-        padding-left: 15px;
+        padding-left: 0px;
     } 
 }
 
-@media (min-width: 751px) and (max-width: 1329px) {
+@media (min-width: 991px) and (max-width: 1329px) {
     .video-grid-continer {
         grid-template-columns: 1fr 1fr 1fr;
     }

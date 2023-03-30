@@ -100,6 +100,7 @@
 .scrollbox{
     overflow: auto;
     visibility: hidden;
+    z-index: 1;
 }
 
 .scrollbox-inner,
@@ -132,14 +133,14 @@
 
 
 
-@media (max-width: 750px) {
+@media (max-width: 990px) {
     .sidebar {
         opacity: 0;
         z-index: 999;
     }
 }
 
-@media (min-width: 751px) and (max-width: 1329px) {
+@media (min-width: 991px) and (max-width: 1329px) {
     .sidebar {
         opacity: 1;
         z-index: 1000;

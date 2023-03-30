@@ -53,7 +53,7 @@
     background-color: rgb(210, 210, 210, 1);
 }
 
-@media (max-width: 750px) {
+@media (max-width: 990px) {
     .filters-continer,
     .main-filter-continer,
     .left-icon-continer {
@@ -65,7 +65,7 @@
     }
 }
 
-@media (min-width: 751px) and (max-width: 1329px) {
+@media (min-width: 991px) and (max-width: 1329px) {
     .filters-continer,
     .main-filter-continer,
     .left-icon-continer {
