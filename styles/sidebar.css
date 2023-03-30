@@ -1,0 +1,154 @@
+/* Now, style the sidebar. */
+
+.sidebar {
+    background-color: rgb(250, 250, 250);
+    position: fixed;
+    left: 0;
+    top: 53px;
+    bottom: 0;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 4px;
+    transition: opacity 0.05s;
+    /* Note */
+    opacity: 0;
+    z-index: 1000;
+}
+
+.sidebar .icon-link-continer {
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.05s;
+    padding: 0px 4px;
+    cursor: pointer;
+}
+
+.sidebar .icon-link-continer:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.icon-link-continer div {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* large sidebar */
+.large-sidebar{
+    background-color: rgb(250, 250, 250);
+    position: fixed;
+    left: 0;
+    top: 53px;
+    bottom: 0;
+    width: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 4px;
+    /* border-right: 1px solid rgb(210, 210, 210); */
+    transition: opacity 0.3s;
+    /* Note */
+    opacity: 0;
+    z-index: 999;
+}
+
+
+.large-icon-link-continer{
+    width: 200px;
+    height: 45px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: background-color 0.3s;
+    padding: 0px 4px;
+    margin-bottom: 2px;
+    margin-right: 8px;
+}
+
+.large-icon-link-continer:hover{
+    background-color: rgb(210, 210, 210);
+}
+
+.large-sidebar .hz-line-1{
+    background-color: black;
+    width: 200px;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+
+.large-sidebar .hz-line-2{
+    background-color: black;
+    width: 200px;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+
+.large-icon{
+    padding: 0px 35px 0px 9px;
+}
+
+/* Note, Here is style the large sidebar scrollabar */
+.scrollbox{
+    overflow: auto;
+    visibility: hidden;
+}
+
+.scrollbox-inner,
+.scrollbox:hover{
+    visibility: visible;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background: #f1f1f1;  */
+    background: none; 
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+
+@media (max-width: 750px) {
+    .sidebar {
+        opacity: 0;
+        z-index: 999;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1329px) {
+    .sidebar {
+        opacity: 1;
+        z-index: 1000;
+    }
+}
+
+@media (min-width: 1330px) {
+    .large-sidebar{
+        opacity: 1;
+    }   
+    
+}

@@ -1,0 +1,90 @@
+
+.main-filter-continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 53px;
+    right: 0;
+    z-index: 1000;
+    background-color: rgb(250, 250, 250);
+    padding: 15px 0px;
+}
+
+.left-icon-continer,
+.right-icon-continer{
+    padding: 8px 9px;
+    border-radius: 25px;
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.left-icon-continer:hover,
+.right-icon-continer:hover{
+    background-color: rgb(210, 210, 210, 1);
+}
+
+.filters-continer{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    white-space: nowrap;
+    flex: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 8px;
+}
+
+.filters-continer div{
+    background-color: rgb(210, 210, 210, 0.5);
+    padding: 8px 10px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.filters-continer div:hover{
+    background-color: rgb(210, 210, 210, 1);
+}
+
+@media (max-width: 750px) {
+    .filters-continer,
+    .main-filter-continer,
+    .left-icon-continer {
+        left: 0;
+    }
+
+    .right-icon-continer {
+        right: 8px;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1329px) {
+    .filters-continer,
+    .main-filter-continer,
+    .left-icon-continer {
+        left: 80px;
+    }
+
+    .right-icon-continer {
+        right: 8px;
+    }
+}
+
+@media (min-width: 1330px) {
+    .filters-continer,
+    .main-filter-continer,
+    .left-icon-continer {
+        left: 239px;
+    }
+    
+    .right-icon-continer {
+        right: 8px;
+    }
+}

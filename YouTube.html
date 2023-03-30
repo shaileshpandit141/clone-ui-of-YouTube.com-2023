@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <link rel="stylesheet" href="./styles/filter.css">
+    <link rel="stylesheet" href="./styles/video.css">
+    <link rel="stylesheet" href="./styles/video_grid_continer.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+
+    <title>YouTube</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-section">
+            <span class="material-symbols-outlined menu-icon">menu</span>
+            <span>
+                <img class="youtube-logo" src="./icons/youtube-logo.svg" alt="">
+            </span>
+        </div>
+        <div class="middel-section">
+            <div class="input-box-continer">
+                <input class="input-box" type="text" placeholder="Search">
+            </div>
+            <span class="material-symbols-outlined search-icon">Search</span>
+            <span class="material-symbols-outlined voice-search-icon">keyboard_voice</span>
+        </div>
+        <div class="right-section">
+            <div>
+                <img class="upload-icon" src="./icons/upload.svg" alt="">
+            </div>
+            <div>
+                <img class="notifications-icon" src="./icons/notifications.svg" alt="">
+            </div>
+            <div>
+                <img class="current-user" src="./icons/7fca40c20f002f0b8c8ed773c0785ae6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Small sidebar -->
+    <div class="sidebar">
+        <div class="icon-link-continer">
+            <span class="material-symbols-outlined">Home</span>
+            <div>Home</div>
+        </div>
+        <div class="icon-link-continer">
+            <span class="material-symbols-outlined">explore</span>
+            <div>Explore</div>
+        </div>
+        <div class="icon-link-continer">
+            <span class="material-symbols-outlined">slideshow</span>
+            <div>Shorts</div>
+        </div>
+        <div class="icon-link-continer">
+            <span class="material-symbols-outlined">subscriptions</span>
+            <div>Subscriptions</div>
+        </div>
+        <div class="icon-link-continer">
+            <span class="material-symbols-outlined">library_add</span>
+            <div>Library</div>
+        </div>
+    </div>
+
+    <!-- Large sidebar -->
+    <div class="large-sidebar">
+
+        <!-- Here is define scrollbar -->
+        <div class="scrollbox">
+            <div class="scrollbox-inner">
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">Home</span>
+                    <div>Home</div>
+                </div>
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">explore</span>
+                    <div>Explore</div>
+                </div>
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">slideshow</span>
+                    <div>Shorts</div>
+                </div>
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">subscriptions</span>
+                    <div>Subscriptions</div>
+                </div>
+
+
+                <!-- This is used to drow hz line -->
+                <div class="hz-line-1"></div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">library_add</span>
+                    <div>Library</div>
+                </div>
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">history</span>
+                    <div>History</div>
+                </div>
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">slideshow</span>
+                    <div>Your Videos</div>
+                </div>
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">timer</span>
+                    <div>Watch Later</div>
+                </div>
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">expand_more</span>
+                    <div>Show more</div>
+                </div>
+
+                <div class="hz-line-2"></div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">trending_up</span>
+                    <div>Trending</div>
+                </div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">local_mall</span>
+                    <div>Shopping</div>
+                </div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">Music_note</span>
+                    <div>Music</div>
+                </div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">movie</span>
+                    <div>Films</div>
+                </div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">online_prediction</span>
+                    <div>Live</div>
+                </div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">stadia_controller</span>
+                    <div>Gaming</div>
+                </div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">newspaper</span>
+                    <div>News</div>
+                </div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">directions_run</span>
+                    <div>Sport</div>
+                </div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">tips_and_updates</span>
+                    <div>Learning</div>
+                </div>
+
+                <div class="large-icon-link-continer">
+                    <span class="material-symbols-outlined large-icon">styler</span>
+                    <div>Fashion & beauty</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Here is defined the filter option. -->
+    <div class="main-filter-continer">
+        <div class="left-icon-continer">
+            <span class="material-symbols-outlined">chevron_left</span>
+        </div>
+        <div class="filters-continer">
+            <div>All</div>
+            <div>Python</div>
+            <div>Django</div>
+            <div>Mixes</div>
+            <div>Music</div>
+            <div>Live</div>
+            <div>JavaScript</div>
+            <div> Computer Programming</div>
+            <div>Gaming</div>
+            <div>Bollywood Music</div>
+            <div>Bhola</div>
+            <div>Game</div>
+            <div>Hindi Music</div>
+            <div>News Live</div>
+            <div>HTML</div>
+            <div>CSS</div>
+        </div>
+        <div class="right-icon-continer">
+            <span class="material-symbols-outlined">chevron_right</span>
+            <div></div>
+        </div>
+
+    </div>
+
+    <div class="video-grid-continer">
+        <!-- 1st video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/1.webp" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/1.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Dil Hai | Ajay Devgan | Tabu | Amit Mishra | Irshad K |Ravi B | Bhola...</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">Saregama Mausic</span>
+                            <span class="material-symbols-outlined farified-icon">check_circle</span>
+                        </Span>
+                        <Span class="video-status-info">14M views &#183; 5 days ago </Span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2nd video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/2.webp" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/2.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Arya Stak | know death |know death | know death </div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">SamyRose</span>
+                            <!-- <span class="material-symbols-outlined farified-icon">check_circle</span> -->
+                        </Span>
+                        <Span class="video-status-info">1.4M views &#183; 1 year ago </Span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3rd video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/3.jpg" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/3.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Jee Rahe The Hum (Falling in Love)-Kisi Ka Bhai Ki Jaan | Salman Kha...</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">Zee Music Company</span>
+                            <span class="material-symbols-outlined farified-icon">check_circle</span>
+                        </Span>
+                        <Span class="video-status-info">28M views &#183; 8 days ago </Span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4th video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/4.jpg" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/4.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Dotara (Video) Jubin Nautiyal, Mouni Roy, Payal Dev | Darsh Kothari,Vayu, BLM Studios|
+                            Bhushan Kumar</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">T-Series</span>
+                            <span class="material-symbols-outlined farified-icon">check_circle</span>
+                        </Span>
+                        <Span class="video-status-info">10M views &#183; 8 days ago </Span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5th video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/5.jpg" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/5.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Ultimate Wild Animals Collection in 8K ULTRA HD / 8K TV</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">8K VIDEOS ULTRA HD</span>
+                            <span class="material-symbols-outlined farified-icon">check_circle</span>
+                        </Span>
+                        <Span class="video-status-info">73M views &#183; 2 years ago </Span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 6th video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/6.jpg" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/6.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Dheere Dheere Se Meri Zindagi Song Hrithik Roshan | Yo Yo Honey Singh</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">Rahi Bagga</span>
+                            <!-- <span class="material-symbols-outlined farified-icon">check_circle</span> -->
+                        </Span>
+                        <Span class="video-status-info">52k views &#183; 7 days ago </Span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 7th video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/7.jpg" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/7.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>"Raghupati Raghav Krrish 3" Full Video Song | Hritik Roshan, Priyanka Chopra...</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">T-Series</span>
+                            <span class="material-symbols-outlined farified-icon">check_circle</span>
+                        </Span>
+                        <Span class="video-status-info">106M views &#183; 9 years ago </Span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 8th video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/8.jpg" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/8.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Besharam Rang Song | Pathaan | Shah Rukh Khan, Deepika Padukone | Visha...</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">YRF</span>
+                            <span class="material-symbols-outlined farified-icon">check_circle</span>
+                        </Span>
+                        <Span class="video-status-info">386M views &#183; 3 months ago </Span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 9th video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/9.webp" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/9.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Git for Professionals Tutorial - Tools & Concepts for Mastering Version...</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">FreeCodeCamp.org</span>
+                            <span class="material-symbols-outlined farified-icon">check_circle</span>
+                        </Span>
+                        <Span class="video-status-info">1.1M views &#183; 1 year ago </Span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 10th video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/10.webp" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/10.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Beauty of 4K HDR 60FPS Dolby Vision Demo...</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">Dolby Vision Demo 4K</span>
+                            <!-- <span class="material-symbols-outlined farified-icon">check_circle</span> -->
+                        </Span>
+                        <Span class="video-status-info">1M views &#183; 2 months ago </Span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 11th video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/11.webp" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/11.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Extraction 2 | official Tudum Teaser | Netflix...</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">Netflix</span>
+                            <span class="material-symbols-outlined farified-icon">check_circle</span>
+                        </Span>
+                        <Span class="video-status-info">9.4M views &#183; 1 year ago </Span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 12th video -->
+        <div class="main-video-continer">
+            <div class="video-thumbnail-continer">
+                <img class="video-thumbnail" src="./thumbnails/12.jpg" alt="">
+            </div>
+            <div class="video-info">
+                <div class="channel-picture-continer">
+                    <img class="channel-picture" src="./channel-pictures/12.jpg" alt="">
+                </div>
+                <div class="video-title-info">
+                    <div class="video-title">
+                        <div>Suit Punjabi: Jass Manak (Official video) Satti Dhillon | Punjabi Song | G...</div>
+                        <span class="material-symbols-outlined">more_vert</span>
+                    </div>
+                    <div class="author-info">
+                        <Span>
+                            <span class="channel-name">Geet MP3</span>
+                            <span class="material-symbols-outlined farified-icon">check_circle</span>
+                        </Span>
+                        <Span class="video-status-info">293M views &#183; 4 years ago </Span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

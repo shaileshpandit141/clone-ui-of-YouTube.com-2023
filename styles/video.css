@@ -1,0 +1,81 @@
+
+.main-video-continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.video-thumbnail {
+    width: 100%;
+    display: block;
+}
+
+.video-thumbnail{
+    height: auto;
+    border-radius: 12px;    
+}
+
+.video-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 8px;
+}
+
+.video-title-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2000;
+}
+
+.video-title{
+    display: flex;
+    flex-direction: row;
+}
+
+.video-title div{
+    font-family: Roboto Arial;
+    font-weight: 550;
+    width: 100%;
+}
+
+.video-title span{
+    opacity: 0;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.video-info:hover .video-title span{
+    opacity: 1;
+}
+
+.author-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 4px;
+    color: rgb(106, 105, 105);
+}
+
+.author-info .channel-name,
+.video-status-info{
+    font-family: Roboto Arial;
+}
+
+.channel-picture,
+.channel-picture-continer {
+    margin-right: 8px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.author-info span{
+    font-size: 15px;
+    line-height: 20px;
+}
